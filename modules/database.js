@@ -3,8 +3,7 @@
 */
 
 // URI for connecting to cloud database
-// const dbURI = process.env.DB_URI
-const dbURI = "mongodb+srv://Rahul:Rahul2810@cluster0.vgmmapa.mongodb.net/drawit?retryWrites=true&w=majority"
+const dbURI = process.env.DB_URI
 const schema = require("./schema");
 const mongoose = require("mongoose");
 mongoose.set('useNewUrlParser', true);
